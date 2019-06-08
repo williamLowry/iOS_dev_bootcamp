@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		780BA61B22A4C834004EBFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BA61A22A4C834004EBFEE /* AppDelegate.swift */; };
-		780BA61D22A4C834004EBFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BA61C22A4C834004EBFEE /* ViewController.swift */; };
-		780BA62022A4C834004EBFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BA61E22A4C834004EBFEE /* Main.storyboard */; };
-		780BA62222A4C853004EBFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780BA62122A4C853004EBFEE /* Assets.xcassets */; };
-		780BA62522A4C853004EBFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BA62322A4C853004EBFEE /* LaunchScreen.storyboard */; };
+		780BA65722A63B5B004EBFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BA65622A63B5B004EBFEE /* AppDelegate.swift */; };
+		780BA65922A63B5B004EBFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BA65822A63B5B004EBFEE /* ViewController.swift */; };
+		780BA65C22A63B5B004EBFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BA65A22A63B5B004EBFEE /* Main.storyboard */; };
+		780BA65E22A63B6C004EBFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780BA65D22A63B6C004EBFEE /* Assets.xcassets */; };
+		780BA66122A63B6C004EBFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BA65F22A63B6C004EBFEE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		780BA61722A4C834004EBFEE /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		780BA61A22A4C834004EBFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		780BA61C22A4C834004EBFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		780BA61F22A4C834004EBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		780BA62122A4C853004EBFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		780BA62422A4C853004EBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		780BA62622A4C853004EBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780BA65322A63B5B004EBFEE /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780BA65622A63B5B004EBFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		780BA65822A63B5B004EBFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		780BA65B22A63B5B004EBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		780BA65D22A63B6C004EBFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		780BA66022A63B6C004EBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		780BA66222A63B6C004EBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		780BA61422A4C834004EBFEE /* Frameworks */ = {
+		780BA65022A63B5B004EBFEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		780BA60E22A4C834004EBFEE = {
+		780BA64A22A63B5B004EBFEE = {
 			isa = PBXGroup;
 			children = (
-				780BA61922A4C834004EBFEE /* Dicee */,
-				780BA61822A4C834004EBFEE /* Products */,
+				780BA65522A63B5B004EBFEE /* Magic 8 Ball */,
+				780BA65422A63B5B004EBFEE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		780BA61822A4C834004EBFEE /* Products */ = {
+		780BA65422A63B5B004EBFEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				780BA61722A4C834004EBFEE /* Dicee.app */,
+				780BA65322A63B5B004EBFEE /* Magic 8 Ball.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		780BA61922A4C834004EBFEE /* Dicee */ = {
+		780BA65522A63B5B004EBFEE /* Magic 8 Ball */ = {
 			isa = PBXGroup;
 			children = (
-				780BA61A22A4C834004EBFEE /* AppDelegate.swift */,
-				780BA61C22A4C834004EBFEE /* ViewController.swift */,
-				780BA61E22A4C834004EBFEE /* Main.storyboard */,
-				780BA62122A4C853004EBFEE /* Assets.xcassets */,
-				780BA62322A4C853004EBFEE /* LaunchScreen.storyboard */,
-				780BA62622A4C853004EBFEE /* Info.plist */,
+				780BA65622A63B5B004EBFEE /* AppDelegate.swift */,
+				780BA65822A63B5B004EBFEE /* ViewController.swift */,
+				780BA65A22A63B5B004EBFEE /* Main.storyboard */,
+				780BA65D22A63B6C004EBFEE /* Assets.xcassets */,
+				780BA65F22A63B6C004EBFEE /* LaunchScreen.storyboard */,
+				780BA66222A63B6C004EBFEE /* Info.plist */,
 			);
-			path = Dicee;
+			path = "Magic 8 Ball";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		780BA61622A4C834004EBFEE /* Dicee */ = {
+		780BA65222A63B5B004EBFEE /* Magic 8 Ball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 780BA62922A4C853004EBFEE /* Build configuration list for PBXNativeTarget "Dicee" */;
+			buildConfigurationList = 780BA66522A63B6C004EBFEE /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */;
 			buildPhases = (
-				780BA61322A4C834004EBFEE /* Sources */,
-				780BA61422A4C834004EBFEE /* Frameworks */,
-				780BA61522A4C834004EBFEE /* Resources */,
+				780BA64F22A63B5B004EBFEE /* Sources */,
+				780BA65022A63B5B004EBFEE /* Frameworks */,
+				780BA65122A63B5B004EBFEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Dicee;
-			productName = Dicee;
-			productReference = 780BA61722A4C834004EBFEE /* Dicee.app */;
+			name = "Magic 8 Ball";
+			productName = "Magic 8 Ball";
+			productReference = 780BA65322A63B5B004EBFEE /* Magic 8 Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		780BA60F22A4C834004EBFEE /* Project object */ = {
+		780BA64B22A63B5B004EBFEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Programmer Alley";
 				TargetAttributes = {
-					780BA61622A4C834004EBFEE = {
+					780BA65222A63B5B004EBFEE = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 780BA61222A4C834004EBFEE /* Build configuration list for PBXProject "Dicee" */;
+			buildConfigurationList = 780BA64E22A63B5B004EBFEE /* Build configuration list for PBXProject "Magic 8 Ball" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 780BA60E22A4C834004EBFEE;
-			productRefGroup = 780BA61822A4C834004EBFEE /* Products */;
+			mainGroup = 780BA64A22A63B5B004EBFEE;
+			productRefGroup = 780BA65422A63B5B004EBFEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				780BA61622A4C834004EBFEE /* Dicee */,
+				780BA65222A63B5B004EBFEE /* Magic 8 Ball */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		780BA61522A4C834004EBFEE /* Resources */ = {
+		780BA65122A63B5B004EBFEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780BA62522A4C853004EBFEE /* LaunchScreen.storyboard in Resources */,
-				780BA62222A4C853004EBFEE /* Assets.xcassets in Resources */,
-				780BA62022A4C834004EBFEE /* Main.storyboard in Resources */,
+				780BA66122A63B6C004EBFEE /* LaunchScreen.storyboard in Resources */,
+				780BA65E22A63B6C004EBFEE /* Assets.xcassets in Resources */,
+				780BA65C22A63B5B004EBFEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		780BA61322A4C834004EBFEE /* Sources */ = {
+		780BA64F22A63B5B004EBFEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780BA61D22A4C834004EBFEE /* ViewController.swift in Sources */,
-				780BA61B22A4C834004EBFEE /* AppDelegate.swift in Sources */,
+				780BA65922A63B5B004EBFEE /* ViewController.swift in Sources */,
+				780BA65722A63B5B004EBFEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		780BA61E22A4C834004EBFEE /* Main.storyboard */ = {
+		780BA65A22A63B5B004EBFEE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				780BA61F22A4C834004EBFEE /* Base */,
+				780BA65B22A63B5B004EBFEE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		780BA62322A4C853004EBFEE /* LaunchScreen.storyboard */ = {
+		780BA65F22A63B6C004EBFEE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				780BA62422A4C853004EBFEE /* Base */,
+				780BA66022A63B6C004EBFEE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		780BA62722A4C853004EBFEE /* Debug */ = {
+		780BA66322A63B6C004EBFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		780BA62822A4C853004EBFEE /* Release */ = {
+		780BA66422A63B6C004EBFEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,36 +278,36 @@
 			};
 			name = Release;
 		};
-		780BA62A22A4C853004EBFEE /* Debug */ = {
+		780BA66622A63B6C004EBFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q33N4U3XR;
-				INFOPLIST_FILE = Dicee/Info.plist;
+				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.programmeralley.Dicee;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programmeralley.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		780BA62B22A4C853004EBFEE /* Release */ = {
+		780BA66722A63B6C004EBFEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q33N4U3XR;
-				INFOPLIST_FILE = Dicee/Info.plist;
+				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.programmeralley.Dicee;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programmeralley.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		780BA61222A4C834004EBFEE /* Build configuration list for PBXProject "Dicee" */ = {
+		780BA64E22A63B5B004EBFEE /* Build configuration list for PBXProject "Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				780BA62722A4C853004EBFEE /* Debug */,
-				780BA62822A4C853004EBFEE /* Release */,
+				780BA66322A63B6C004EBFEE /* Debug */,
+				780BA66422A63B6C004EBFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		780BA62922A4C853004EBFEE /* Build configuration list for PBXNativeTarget "Dicee" */ = {
+		780BA66522A63B6C004EBFEE /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				780BA62A22A4C853004EBFEE /* Debug */,
-				780BA62B22A4C853004EBFEE /* Release */,
+				780BA66622A63B6C004EBFEE /* Debug */,
+				780BA66722A63B6C004EBFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 780BA60F22A4C834004EBFEE /* Project object */;
+	rootObject = 780BA64B22A63B5B004EBFEE /* Project object */;
 }
