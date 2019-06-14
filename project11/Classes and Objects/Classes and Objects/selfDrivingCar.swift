@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class selfDrivingCar : Car {
+    
+    var destination : String?
+
+    override func drive(){
+        super.drive()
+        
+        if let userSetDestination = destination {
+            print("driving towards " + userSetDestination)
+        }
+    }
+    
+}
+
