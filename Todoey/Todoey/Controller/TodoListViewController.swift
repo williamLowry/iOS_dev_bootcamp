@@ -35,7 +35,6 @@ class TodoListViewController: UITableViewController {
     }
     
     
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoItemCell", for: indexPath)
@@ -51,7 +50,7 @@ class TodoListViewController: UITableViewController {
     
     
     
-    // MARK = Tableview delegate methods
+    // MARK - Tableview delegate methods
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
 //        context.delete(itemArray[indexPath.row])
@@ -108,8 +107,6 @@ class TodoListViewController: UITableViewController {
         
         self.tableView.reloadData()
     }
-    
-    
     
     
     func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest()){
