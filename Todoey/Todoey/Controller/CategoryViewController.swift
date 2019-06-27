@@ -14,7 +14,7 @@ class CategoryViewController: UITableViewController {
     
     let realm = try! Realm()
     
-    var categories : Results<Category>!
+    var categories : Results<Category>?
 
     
     override func viewDidLoad() {
@@ -102,7 +102,7 @@ class CategoryViewController: UITableViewController {
         let destinationVC = segue.destination as! TodoListViewController
         
         if let indexPath = tableView.indexPathForSelectedRow {
-            destinationVC.selectedCategory = categories[indexPath.row]
+            destinationVC.selectedCategory = categories?[indexPath.row]
         }
     }
     
