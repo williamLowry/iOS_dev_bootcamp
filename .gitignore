@@ -5,6 +5,9 @@
 ##Project-wide
 .DS_Store
 
+## Machine Learning Datasets
+*.mlmodel
+*.caffemodel
 
 ## Build generated
 build/
